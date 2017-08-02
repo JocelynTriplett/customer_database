@@ -35,6 +35,14 @@ body {
   width: 21vw;
   flex-shrink: 1;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
 }
 
 .information h2 {
@@ -53,12 +61,15 @@ body {
 }
 
 .information p {
-  font-size: .5em;
+  font-size: .7em;
   text-transform: capitalize;
   margin: 0;
   font-weight: lighter;
+  line-height: 20px;
 }
-
+.addressSpacer {
+  height: 2vh;
+}
 .SSN {
   color: green;
   padding-top: 10px;
@@ -66,4 +77,8 @@ body {
 img {
   width: 21vw;
   height: auto;
+}
+
+.endspacer {
+  height: 5vh;
 }
