@@ -1,7 +1,3 @@
-
-console.log(customers);
-console.log(customers.results[0].picture.medium);
-
 let people = customers.results;
 
 function personInfo(){
